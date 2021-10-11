@@ -13,7 +13,7 @@ Shows my current directory location.
 Shows everyting in my current directory. Directory is bolder than file.
 
 - ls -i
-**-i, --inode = print the index number of each file**
+**-i, --inode = print the index number of each file**              
 Shows lists of everything inside.
 
 ## mkdir 
