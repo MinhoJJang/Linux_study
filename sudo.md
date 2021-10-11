@@ -1,4 +1,4 @@
-#sudo 
+# sudo 
 **super user do**
 
 If you give everyone super and root authority, everyone can change the file at will, so you should use it carefully.
