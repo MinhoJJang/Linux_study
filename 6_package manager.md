@@ -69,7 +69,7 @@ This command show package lists that relative to text 'htop'.
 ```r
 mhj@mhj-ideapad:~$ sudo apt-cache search htop
 [sudo] password for mhj: 
-htop - ´ëÈ­Çü ÇÁ·Î¼¼½º ºä¾î 
+htop - ëŒ€í™”í˜• í”„ë¡œì„¸ìŠ¤ ë·°ì–´ 
 aha - ANSI color to HTML converter
 libauthen-oath-perl - Perl module for OATH One Time Passwords
 pftools - build and search protein and DNA generalized profiles
