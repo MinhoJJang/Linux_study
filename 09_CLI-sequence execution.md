@@ -7,7 +7,7 @@ We talk about GUI and CLI just before, and now we know CLI is more complicated t
 ### APPLICATION
 Standard way to make directory and go into directory in console is right this:
 
-```
+```r
 mhj@mhj-IdeaPad:~$ mkdir temp
 mhj@mhj-IdeaPad:~$ cd temp
 mhj@mhj-IdeaPad:~/temp$ 
@@ -29,4 +29,4 @@ mhj@mhj-IdeaPad:~$ mkdir temp2 && cd temp
 mhj@mhj-IdeaPad:~/temp$ 
 ```
 
-So, when will this be useful? When we don't know how long this order takes, it is useful that we don't need to wait for the previous order to execute next order.
+So, when will this be useful? If we don't know how long this command takes, then we don't need to wait for the previous command to execute next command.
