@@ -15,7 +15,7 @@ mhj@mhj-IdeaPad:~$ cat result.txt
 합계 56
 ...
 ```
-'>' means _Redirection_ . And '>' has the same meaning as '1>'.
+'>' means _Redirection_ . And '>' has the same meaning as '1>'. Also, '>' is used when redirecting __Standard output__.
 
 ### Redirect - Standard error
 
