@@ -50,3 +50,4 @@ It shows every process in your computer. If you want to found specific named pro
 ```r
 mhj@mhj-IdeaPad:~/temp$ ps aux | grep vscode
 ```
+
