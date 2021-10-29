@@ -82,7 +82,7 @@
 
 There a lot of Shells, so that we can choose the Shell we want to control Kernel. It is why Shell and Kernel is divided. 
 
-![Shell&Kernel](https://github.com/MinhoJJang/Linux_study/blob/main/14-17_Shell/Shell%26Kernel2.png)
+![Shell&Kernel2](https://github.com/MinhoJJang/Linux_study/blob/main/14-17_Shell/Shell%26Kernel2.png)
 
 
-![Shell&Kernel](https://github.com/MinhoJJang/Linux_study/blob/main/14-17_Shell/Shell%26Kernel3.png)
+![Shell&Kernel3](https://github.com/MinhoJJang/Linux_study/blob/main/14-17_Shell/Shell%26Kernel3.png)

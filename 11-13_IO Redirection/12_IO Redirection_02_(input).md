@@ -50,6 +50,9 @@ First, not using redirection, we using __Command Line Arguments__ as an input. S
 
  Second, _cat_ can also get input with __Standard Input__. So, by using ***<*** and gives a file name as a parameter, ***cat < temp.txt*** means not an argument, but a __Standard Input__. 
 
+![IO Stream](https://github.com/MinhoJJang/Linux_study/blob/main/11-13_IO%20Redirection/IO%20Redirection.png)
+ 
+
  ### IO Stream
 
 ```r
