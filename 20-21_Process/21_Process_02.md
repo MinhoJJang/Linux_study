@@ -42,7 +42,7 @@ PS has the disadvantage that it is difficult for users to recognize because it l
 Let's briefly learn how to use htop.
 ![htop1](./htop.png))
 - If you click CPU, MEM, etc., it appears sorted based on it.
--__TIME+_ means the time when the program is executed.
+- __TIME+__ means the time when the program is executed.
 - In the case of Command, it shows what command the process was executed.
 - In the case of MEM, the percentage occupying memory is shown as %, and in the case of RES, the actual size of memory occupied is shown.
 - In the top toolbar, 1, 2, 3, and 4 each mean cpu, showing the current usage of cpu.
