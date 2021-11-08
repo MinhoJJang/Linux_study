@@ -11,8 +11,8 @@ This way, it shows the log file existing on the database. At this time, it shoul
 
 ## Find
 
-If you take this link, you can see 35 types of find usage.
-[FindUsage](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
+If you take this link, you can see 35 types of find usage.          
+[FindUsage](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)            
 Let's find out a few of these uses.
 
 ### Find Files Using Name in Current Directory
