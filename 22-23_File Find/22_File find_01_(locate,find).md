@@ -1,4 +1,4 @@
-# File find
+# File find 01
 
 Files are largely classified into two uses: the first is the file for storing data, and the second is the executable file for storing commands for what to do. Whatever the purpose of the file is, let's find out how to locate the file.
 
