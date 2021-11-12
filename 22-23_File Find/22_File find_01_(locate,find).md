@@ -25,7 +25,8 @@ To explain each keyword here, it is good to understand as follows.
 
 keyword|#|.|~|-name|*.log
 |------|---|---|---|---|---|
-|explanation|Route Permission|Means to find the directory below the current directory|It means that I will find the home directory first|It means finding a file through the file name|Means that extension will find all files ending in log|
+|explanation|Route Permission|Means to find the directory below the current directory|It means that I will find the home directory first|It means finding a file through the file name|It means that you will find all the files that end in .log.
+|
 
 ### Find and remove single File
 ```
