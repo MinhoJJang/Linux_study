@@ -79,7 +79,6 @@ To summarize the above in a simple table, it is as follows.
 
 |S01apache2|S|01|
 |----------|-|--|
-|The actual program is located in '../init.d/apache2', but the link is named 'S01apache2'. It's comfortable to think of it as a shortcut.|In the case of S, a program that runs when the computer boots, and in the case of K, it does not run when it boots.
-|In the case of numbers such as 01,02, it means the operation priority of the program.|
+|The actual program is located in '../init.d/apache2', but the link is named 'S01apache2'. It's comfortable to think of it as a shortcut.|In the case of S, a program that runs when the computer boots, and in the case of K, it does not run when it boots.|In the case of numbers such as 01,02, it means the operation priority of the program.|
 
 Anyway, if we want a daemon program to run automatically when the computer boots, we can link it to a directory called etc/rc3.d/ with a name similar to S01apache2.
