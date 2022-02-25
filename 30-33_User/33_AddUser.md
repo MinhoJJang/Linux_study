@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AddUser
 
 This time, let's find out how to add users to your computer.
@@ -77,12 +76,3 @@ $ sudo pwd
 [sudo] testUser의 암호:
 /home/testUser
 ```
-
-
-
-
-
-
-=======
-# AddUser
->>>>>>> 1106948f2a0d0358a4f09fad363936d75cb9736a

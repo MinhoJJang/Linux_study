@@ -12,7 +12,7 @@ mhj@mhj-IdeaPad:~$
 
 As such, the general user has a custom name in front of '@'. On the other hand, super users have a content called 'root' in front of '@'. In addition, the last '$' mark means that this user is currently a general user. If you are a super user, a '#' mark will appear.
 
-||User|SuperUser|
+|User|SuperUser|
 |-|-|-|
 |front of @|customName@~|root@~|
 |기호 표시|$|#|
