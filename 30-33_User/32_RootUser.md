@@ -1,23 +1,23 @@
 # RootUser
 
-유닉스 계열에서는 크게 두가지 사용자가 존재한다. 하나는 Super(Root) User, 나머지 하나는 그냥 User. Root User 권한을 위해 사용하는 대표적인 명령어는 `sudo`이다.  예를 들어 `sudo apt update -y` 같은 명령으로 일시적으로 슈퍼유저의 권한을 받아 명령을 수행할 수 있다. 
+There are two users in the Unix family. One is a Super (Root) User, and the other is a general user. The representative command used for Root User authority is 'sudo'. For example, a command such as 'sudoapt update-y' may be temporarily received from the superuser to perform the command.
 
-그러나 이는 한순간만 슈퍼유저가 되는 것이므로 일시적인 명령이다. 그렇다면 슈퍼유저가 되는 방법은 무엇일까? 
+However, this is a temporary order because it becomes a super user only for one moment. Then, what is the way to become a super user?
 
-일단, 슈퍼유저가 되기 전에 자신이 일반유저인지 슈퍼유저인지 알아야 한다. 그러러면 bash에 출력되는 기본 메세지를 보면 된다. 
+First of all, before becoming a super user, you have to know whether you are a regular user or a super user. Then you can look at the basic message output on the bash.
 
 ```
 mhj@mhj-IdeaPad:~$
 ```
 
-이와 같이, 일반 유저는 `@` 앞에 커스텀 네임이 온다. 반면 슈퍼유저는 `@` 앞에 `root` 라는 내용이 온다. 또한, 맨 뒤의 `$` 표시는 이 사용자가 현재 일반유저라는 뜻이다. 만약 슈퍼유저라면 `#` 표시가 나타날 것이다. 
+As such, the general user has a custom name in front of '@'. On the other hand, super users have a content called 'root' in front of '@'. In addition, the last '$' mark means that this user is currently a general user. If you are a super user, a '#' mark will appear.
 
 ||User|SuperUser|
 |-|-|-|
 |front of @|customName@~|root@~|
 |기호 표시|$|#|
 
-유닉스 계열에서 슈퍼유저가 되는 법은 `su` 를 사용하면 된다. 만약 ubuntu 에서 슈퍼유저의 패스워드를 설정하지 않았다면, `sudo passwd root` 명령어를 통해 먼저 패스워드를 설정해 준 다음 `su - root` 명령으로 슈퍼유저의 권한으로 진입할 수 있다. 
+To become a super user in the Unix series, 'su' can be used. If the password of the super user is not set in ubuntu, the password can be set first through the 'su-root' command, and then enter the super user's authority with the 'su-root' command.
 
 ```
 mhj@mhj-IdeaPad:~$ su - root
@@ -27,4 +27,4 @@ root@mhj-IdeaPad:~# exit
 mhj@mhj-IdeaPad:~$
 ```
 
-다만 슈퍼유저는 강력한 권한을 가지고 있기 때문에 권한에 따른 책임이 뒤따른다. 그렇기 때문에 평소에는 일반유저로 사용하다가 가끔씩 `sudo` 를 사용해 강력한 명령을 사용하는 것이 올바른 사용법이라고 할 수 있다. 
+However, since superusers have strong authority, responsibilities follow according to authority. Therefore, it can be said that it is the right way to use strong commands using 'sudo' only when necessary, which is usually used as a general user.
