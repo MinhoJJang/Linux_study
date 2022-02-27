@@ -4,7 +4,7 @@ Take an example to understand what __Daemon__ is. If you take a look around my h
 
 The same goes for programs. There are programs that run all the time and programs that run only when used. Commands we have learned so far, such as __ls, rm, and mkdir__, are programs that only turn on when executed.
 
-So, what are some programs that are running all the time? We call it __daemon__ and will find out about it.
+So, what are some programs that are running **all the time?** We call it __daemon__ and will find out about it.
 
 ## Client & Server
 

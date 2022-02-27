@@ -19,11 +19,12 @@ apache-htcacheclean  grub-common        rsyslog
 apache2   
 ...etc
 ```
-In this way, it can be seen that a web server called apache2 is installed in a place called __/etc/init.d/___. This directory is where daemon programs are located. That is, programs with the purpose of daemon are located in this directory. Also, the programs here are different from the way we generally turn on and off programs.
+In this way, it can be seen that a web server called apache2 is installed in a place called __/etc/init.d/__. This directory is where daemon programs are located. That is, programs with the purpose of daemon are located in this directory. Also, the programs here are different from the way we generally turn on and off programs.
 
 ```
 mhj@mhj-IdeaPad:/etc/init.d$ sudo service apache2 start
 ```
+
 Since these programs are services, they add the keyword service to the front and the keyword start to the end. Then, did that service really run? So check it out.
 
 ```
